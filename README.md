@@ -1,6 +1,7 @@
 # Stopwatch tasks by Pawat Nakpiphatkul
 
 I ran the tasks on a HP Envy13, and got these results:
+
 | Task                                                    | Time           |
 |:------------------------------------------------------- | --------------:|
 | Append 50,000 chars to String                           | 1.362672 sec   |
