@@ -15,9 +15,10 @@ I ran the tasks on a HP Envy13, and got these results:
 
 ## Explanation of Results
 
-1. Why is there such a big difference in the time used to append chars to a String and to a StringBuilder?
-Even though we eventually "copy" the StringBuilder into a String so the final result is the same.
+1. Why does appending 100,000 chars to a String take more than 2X the time to append 50,000 chars?
+  * Because it appending twice of 50,000 chars.
+2. Why is there such a big difference in the time used to append chars to a String and to a StringBuilder?
   * Because String is immutable, when concat the String with `+`, compilers will create a StringBuilder and append two Strings then use `toString()` to return String. This means when concat Strings 100,000 times need to create 100,000 objects of StringBuilder while uses StringBuilder to append is create only one object of StringBulider. 
-2. why is there a significant difference in times to sum double, Double, and BigDecimal values?
+3. why is there a significant difference in times to sum double, Double, and BigDecimal values?
   * The double type calculation can change the data directly from heap but Double and BigDecimal must build objects and call method for calculation.
   * BigDecimal is slower than Double because it uses more memory.
