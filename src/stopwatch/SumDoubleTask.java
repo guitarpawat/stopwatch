@@ -1,7 +1,7 @@
 package stopwatch;
 
 /**
- *
+ * Sum the Double object with specific times.
  * @author Pawat Nakpiphatkul
  */
 public class SumDoubleTask implements Runnable {

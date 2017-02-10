@@ -3,7 +3,7 @@ package stopwatch;
 import java.math.BigDecimal;
 
 /**
- *
+ * Sum BigDecimal object with specific times.
  * @author Pawat Nakpiphatkul
  */
 public class SumBigDecimalTask implements Runnable {

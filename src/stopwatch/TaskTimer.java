@@ -1,7 +1,7 @@
 package stopwatch;
 
 /**
- *
+ * For measure the time of each task and print out the time.
  * @author Pawat Nakpiphatkul
  */
 public class TaskTimer {

@@ -1,7 +1,7 @@
 package stopwatch;
 
 /**
- * Append chars to the string in specific times.
+ * Append chars to the String in specific times.
  * @author Pawat Nakpiphatkul
  */
 public class AppendToStringTask implements Runnable{
